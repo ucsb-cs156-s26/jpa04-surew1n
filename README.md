@@ -18,6 +18,9 @@ you with compiling Java using Maven, and submitting using Gradescope.
   and when formatted, it looks even nicer.  The text you are reading
   right now is written in Markdown in the `README.md` file.
 
+* `LICENSE`: It is considered good practice to include a license file in any open source repository so that
+   people accessing the code will know what they are permitted to do with it. 
+
 * `pom.xml` This file is similar to a `Makefile`
   when working with C/C++ programming.  This file works with a piece of
   software called Maven.
