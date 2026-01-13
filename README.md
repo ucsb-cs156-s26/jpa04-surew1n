@@ -46,14 +46,23 @@ you with compiling Java using Maven, and submitting using Gradescope.
 
   All Maven projects must have a `src` directory at the top level.
 
-* `src/main/java`  This directory is the directory where all Java code
+* `src/main/java/`  This directory is the directory where all Java code
   for a Maven project (other than test code) is expected to live.
 
-  Once we introduce *packages*, we'll also see levels of directories
-  under `src/main/java` that correspond to the package structure,
-  but for simple projects without packages, we put our code directly here.
+* `src/main/java/jpa00`  The `jpa00` directory under `src/main/java` is the *package* for this project.
 
-* `src/main/java/Hello.java`  This is the source file where our
+  Most intro Java courses do not introduce the concept of packages, because they
+  are really only needed when dealing with larger code bases.
+  
+  In these larger code bases, each source file has a line such as this:
+
+  ```
+  package jpa00;
+  ```
+
+  The name of the package corresponds to the directory under `src/main/java`
+  
+* `src/main/java/jpa00/Hello.java`  This is the source file where our
   `"Hello, World!"` program can be found.
 
 
